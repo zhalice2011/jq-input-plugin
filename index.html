@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+    <link rel="stylesheet" type="text/css" href="./jquery.myPop.css">
+    <script src="./jquery.myPop.js"></script>
+    <style>
+        body {
+            padding-top: 40px;
+        }
+        .input-text {
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+<body>
+    <input class='input-text' type="text" name="ucard" value="" data-placeholder="身份证号码">
+    <input class='input-text' type="text" name="dress" value="" data-placeholder="住址">
+    <input class='input-text' type="text" name="dress" value="" data-placeholder="姓名">
+    <input class='input-text' type="text" name="dress" value="" data-placeholder="年龄">
+    <input class='input-text' type="text" name="dress" value="" data-placeholder="是否婚配">
+    <input class='input-text' type="text" name="dress" value="" data-placeholder="是否有男友">
+    <input class='input-text' type="text" name="dress" value="" data-placeholder="是否有心上人">
+    <script>
+        $('.input-text').myPop()
+    </script>
+</body>
+</html>
