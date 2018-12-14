@@ -27,4 +27,4 @@ jquery插件 - (效果 http://mall.10046.mi.com/vno/index)
     1. `parcel build index.html`
 
 5. 效果图如下所示
-    ![效果](http://pjpkfq7bp.bkt.clouddn.com/test.mov)	
+    ![效果](http://pjpkfq7bp.bkt.clouddn.com/jqinput.gif)	
