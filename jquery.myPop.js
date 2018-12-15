@@ -15,13 +15,21 @@
             var label =
                 '<label class="input-label" for=' + name + '>' + ph + '</label>'
             labelDom = $(label)
-            labelDom.css({
-                top: inputDom.height() / 2 - 9,
-                left: offset.left
-            })
+
             if (value === '') {
-                inputDom.after(labelDom)
+                labelDom.css({
+                    top: inputDom.height() / 2 - 9,
+                    left: offset.left
+                })
+            } else {
+                labelDom.css({
+                    top: -9,
+                    left: offset.left,
+                    fontSize: '12px',
+                })
             }
+
+            inputDom.after(labelDom)
 
             inputDom.focus(function() {
                 inputDom.addClass('input-text-focus')
@@ -36,11 +44,10 @@
                 inputDom.parent().removeClass('form-section-focus')
                 inputDom.removeClass('input-text-focus')
 
-                if (inputDom.val() === '') {
+                if (inputDom.val() === '') { //
                     labelDom.removeClass('input-label-focus')
                     labelDom.css({
                         top: inputDom.height() / 2 - 9,
-
                     })
                 } else {
                     labelDom.css({
