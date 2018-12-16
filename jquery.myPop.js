@@ -8,9 +8,8 @@
             var ph = inputDom.data('placeholder')
             var name = inputDom.attr('name')
             var value = inputDom.val()
-            var offset = inputDom.offset()
             inputDom.wrap('<div class="form-item"></div>')
-
+            debugger
             var labelDom = null
             var label =
                 '<label class="input-label" for=' + name + '>' + ph + '</label>'
@@ -19,12 +18,12 @@
             if (value === '') {
                 labelDom.css({
                     top: inputDom.height() / 2 - 9,
-                    left: offset.left
+                    left: dom.offsetLeft + 5,
                 })
             } else {
                 labelDom.css({
                     top: -9,
-                    left: offset.left,
+                    left: dom.offsetLeft + 5,
                     fontSize: '12px',
                 })
             }
