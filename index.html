@@ -43,7 +43,7 @@
             type="text"
             name="dress"
             value=""
-            data-placeholder="是否有男友"
+            data-placeholder=""
         />
 
         <input
@@ -95,7 +95,10 @@
             data-placeholder="是否有心上人"
         />
         <script>
-            $('.input-text').myPop()
+            $('.input-text').myPop({
+                inputClass: 'aaa',
+                labelClass: 'bbb'
+            })
             $('#aaaa').val('sdfsdf')
             $('.input-text').myPop()
             $('#aaaa').val('sdfsdf123123123')
