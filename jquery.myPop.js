@@ -1,7 +1,7 @@
 ;(function($) {
-    $.fn.myPop = function(options) {
-        var inputClass = options.inputClass;
-        var labelClass = options.labelClass;
+    $.fn.myPop = function(options = {}) {
+        var inputClass = options.inputClass || '';
+        var labelClass = options.labelClass || '';
         this.each(function(x, dom) {
             if (dom.tagName !== 'INPUT') return
 
@@ -76,12 +76,16 @@
             })
 
             inputDom.bind("input propertychange",function(e){
-                console.log($("#input1").val())
-                console.log('e.target.value :', e.target.value);
-                if(e.target.value === '') {
+                if (e.target.value === '') {
                     labelDom.removeClass('input-label-focus')
+                    labelDom.removeClass(labelClass)
                     labelDom.css({
                         top: inputDom.height() / 2 - 9,
+                    })
+                } else {
+                    labelDom.addClass('input-label-focus')
+                    labelDom.css({
+                        top: -9,
                     })
                 }
          });
