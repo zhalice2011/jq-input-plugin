@@ -13,12 +13,20 @@
                 padding-top: 40px;
             }
             .input-text {
-                margin-top: 100px;
-                display: block;
-                margin: 0 auto;
-                margin-bottom: 50px;
-                width: 400px;
-                height: 100px;
+                float: left;
+                width: 100%;
+                height: 36px;
+                line-height: normal;
+                border: none;
+                text-align: left;
+                padding: 0 18px 0 5px;
+                -webkit-box-sizing: border-box;
+                color: #494949;
+                border: 1px solid #D7D7D7;
+                -webkit-appearance: none;
+                outline: none;
+                transition: all 0.2s linear;
+                background-color: white;
 /*
                 float: left;
                 width: 100%;
@@ -32,69 +40,90 @@
                 border: 1px solid #d7d7d7;
                 -webkit-appearance: none; */
             }
+            .aaa {
+                display: flex;
+                width: 100%;
+                position: relative;
+                color: #494949;
+            }
+            .bbb {
+                position: fixed;
+                background-color: rgb(229, 229, 229);
+                z-index: 801;
+                border: 0px solid green;
+                padding: 10px;
+                overflow: auto;
+                cursor: move;
+                opacity: 1;
+                left: 319px;
+                height: 247px;
+            }
 
         </style>
     </head>
     <body>
-        <input
-            id="aaaa"
-            class="input-text"
-            style="height: 60px"
-            type="text"
-            name="dress"
-            value=""
-            data-placeholder=""
-        />
+        <div class="bbb">
+            <input
+                id="aaaa"
+                class="input-text"
+                style="height: 60px"
+                type="text"
+                name="dress"
+                value=""
+                data-placeholder=""
+            />
+            <div class="aaa">
+                <input
+                    class="input-text"
+                    type="text"
+                    name="ucard"
+                    value=""
+                    data-effect="2"
+                    data-placeholder="身份证号码"
+                />
+            </div>
+            <input
+                class="input-text"
+                style="height: 20px"
+                type="text"
+                name="dress"
+                value=""
+                data-placeholder="住址"
+            />
+            <input
+                class="input-text"
+                style="height: 30px"
+                type="text"
+                name="dress"
+                value=""
+                data-placeholder="姓名"
+            />
+            <input
+                class="input-text"
+                style="height: 40px"
+                type="text"
+                name="dress"
+                value=""
+                data-placeholder="年龄"
+            />
+            <input
+                class="input-text"
+                style="height: 50px"
+                type="text"
+                name="dress"
+                value=""
+                data-placeholder="是否婚配"
+            />
 
-        <input
-            class="input-text"
-            type="text"
-            name="ucard"
-            value=""
-            data-effect="2"
-            data-placeholder="身份证号码"
-        />
-        <input
-            class="input-text"
-            style="height: 20px"
-            type="text"
-            name="dress"
-            value=""
-            data-placeholder="住址"
-        />
-        <input
-            class="input-text"
-            style="height: 30px"
-            type="text"
-            name="dress"
-            value=""
-            data-placeholder="姓名"
-        />
-        <input
-            class="input-text"
-            style="height: 40px"
-            type="text"
-            name="dress"
-            value=""
-            data-placeholder="年龄"
-        />
-        <input
-            class="input-text"
-            style="height: 50px"
-            type="text"
-            name="dress"
-            value=""
-            data-placeholder="是否婚配"
-        />
-
-        <input
-            class="input-text"
-            style="height: 70px"
-            type="text"
-            name="dress"
-            value=""
-            data-placeholder="是否有心上人"
-        />
+            <input
+                class="input-text"
+                style="height: 70px"
+                type="text"
+                name="dress"
+                value=""
+                data-placeholder="是否有心上人"
+            />
+        </div>
         <script>
             $('.input-text').myPop({
                 // inputClass: 'aaa',

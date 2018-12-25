@@ -54,7 +54,7 @@
                 } else {
                     labelDom.css({
                         fontSize: '14px',
-                        left: inputDom.offset().left + inputDom.width() - labelDom.width()
+                        left: inputDom.position().left + inputDom.width() - labelDom.width()
                     })
                 }
 
