@@ -84,7 +84,7 @@
                     } else {
                         labelDom.css({
                             fontSize: '14px',
-                            left: inputDom.offset().left + inputDom.width() - labelDom.width()
+                            left: inputDom.position().left + inputDom.width() - labelDom.width()
                         })
                     }
                 }
@@ -111,7 +111,8 @@
                         })
                     } else {
                         labelDom.css({
-                            left: inputDom.offset().left + inputDom.width() - labelDom.width()
+                            fontSize: '14px',
+                            left: inputDom.position().left + inputDom.width() - labelDom.width()
                         })
                     }
                 }
