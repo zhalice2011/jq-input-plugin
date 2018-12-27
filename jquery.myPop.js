@@ -21,8 +21,9 @@
                 labelDom = $(label)
                 inputDom.after(labelDom)
             }
-
+            debugger
             if (value === '') {
+
                 labelDom.css({
                     top: inputDom.height() / 2 - 9,
                     left: dom.offsetLeft + 5,
@@ -37,7 +38,7 @@
                 } else {
                     labelDom.css({
                         fontSize: '14px',
-                        left: inputDom.offset().left + inputDom.width() - labelDom.width()
+                        left: inputDom.position().left + inputDom.width() - labelDom.width()
                     })
                 }
             }

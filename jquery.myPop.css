@@ -16,6 +16,7 @@
     position: absolute;
     left: 10px;
     width: max-content;
+    white-space:nowrap;
     z-index: 999;
     padding: 0 3px;
     font-size: 14px;
