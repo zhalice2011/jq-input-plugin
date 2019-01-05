@@ -1,0 +1,67 @@
+#nativeShare {
+    font-size: 13px;
+}
+
+#nativeShare .label {
+    font-size: 20px;
+}
+
+#nativeShare .list {
+    width: 100%;
+    margin: 0 auto;
+    text-align:center;
+}
+
+#nativeShare .list div {
+    width:24%;
+    float:left;
+    text-align: center;
+    margin: 20px 0;
+}
+
+@media screen and (min-device-width: 1024px) {
+    #nativeShare .list div i {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-device-width: 480px) {
+    #nativeShare .list div i {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+
+#nativeShare .list div i {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+#nativeShare .foreign i {
+    background-image: url('/images/shareclass/foreign.png');
+    background-size: cover;
+}
+
+#nativeShare .course i {
+    background-image: url('/images/shareclass/course.png');
+    background-size: cover;
+}
+
+#nativeShare .nearbycommunity i {
+    background-image: url('/images/shareclass/nearbycommunity.png');
+    background-size: cover;
+}
+
+#nativeShare .price i {
+    background-image: url('/images/shareclass/price.png');
+    background-size: cover;
+}
+
+#nativeShare .qzone i {
+    background-image: url('/images/shareclass/qqzone.png');
+    background-size: cover;
+}
+

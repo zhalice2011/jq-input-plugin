@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* 
+ debug模式
+ * 58 m job
+ * version: v
+ * author: fengbx
+ * date: 2013/03/07 
+*/
+.eva_big_star{background:url(http://pic2.58.com/m58/job/img/big_star_new.png);}
+.err_tips{background:url(http://pic2.58.com/m58/job/img/sp_ico.png);}
+.reason_lst .ico{background:url(http://pic2.58.com/m58/job/img/sp_ico.png);}
+.ico_loading{background:url(http://pic2.58.com/m58/job/img/ico_loading.png);}
+.info_date .ico{ background:url(http://pic2.58.com/m58/job/img/sp_ico.png);}
+/*fbx130506新增*/
+.wuly_post ul li.link{ background:url(http://pic2.58.com/m58/job/img/wuly-li-bg.png);}
+.wuly_post input.input1,.wuly_post ul li span.radio_s,.wuly_post ul li span.radio_sw,.wuly_post ul li span.wtip i{background:url(http://pic2.58.com/m58/job/img/new_bg.png);}
+.sel_txt{background:url(http://pic2.58.com/m58/job/img/rc_sele2.png);}
+/*fbx130516新增*/
+.map_ico{background: url(http://pic2.58.com/m58/job/img/sp_ico.png);}
+.rsm_func dt,.myrsm li .mr_dr{background:url(http://pic2.58.com/m58/job/img/myrsm_func_icon.png);}
+/*企业详情页公司介绍*/
+.comComt i{background: url(http://pic2.58.com/m58/job/img/qy-commIco.png)}
+.loadIco{background: url(http://pic2.58.com/m58/job/img/ico_loading.png)}
+.mobMsg .mobIco{background-image: url(http://pic2.58.com/m58/job/img/qy-comMobile.png)}
+/*快找好工作-简历详情页*/
+.resm-status li a{background-image:url(http://pic2.58.com/m58/job/img/findJobs-resm.png)}
+
+
+.search_ajax{ position:absolute; width:298px; top:44px; left:1339px;top:335px; border:1px solid #979797; background-color:#FFF; z-index:200; display:none }

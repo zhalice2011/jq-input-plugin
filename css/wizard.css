@@ -1,0 +1,34 @@
+﻿ .category
+    {
+          float: left;
+        color: green;
+    font-size: 12px;
+    font-weight: bold;
+     padding: 2px 4px;
+      line-height:20px;
+    }
+    
+    .ulofitem
+    {
+        float:left ;
+        text-align:left;
+        margin:0px;
+    }
+    
+    .ulofitem li
+    {
+        float: left;
+        border: 0 solid red;
+        margin:0px;
+        padding: 2px 4px;
+        list-style: none outside none;
+    white-space: nowrap;
+    line-height:20px;
+    }
+    
+.itemlink
+    {
+       border: 0 solid red;
+    float: left;
+    
+    }

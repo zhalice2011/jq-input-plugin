@@ -1,0 +1,17 @@
+﻿
+.calendar td /*日历*/
+{
+	border-bottom:1px solid green ;
+	margin-right:0px;
+	padding:4px;
+	text-align:left ;
+	font-size:14px;
+	margin-left:0px;
+	vertical-align:top;
+}
+
+
+.calendar .yesterday
+{
+    background-color:#6AC025;
+}

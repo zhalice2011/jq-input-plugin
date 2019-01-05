@@ -1,0 +1,15 @@
+#ctl00_P_UpdateProgress
+ {
+   background-color:#CF4342;
+   color:White;
+   top: 0px;
+   right: 0px;
+   position:absolute;
+   border:solid 1px black; 
+   z-index:20000; 
+ }
+ 
+.UpdateProgressimg {
+   vertical-align:middle;
+   margin:2px;
+ }

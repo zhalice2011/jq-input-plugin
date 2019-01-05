@@ -1,0 +1,27 @@
+﻿.displayfirsttitle
+{
+    display:inline-block;
+	color:#728bc2 ;	
+	width:100px;
+	text-align:right;
+	
+	margin:1px;		
+}
+
+
+.detailsbartitle
+{
+    display:inline-block;
+	color:#51c328 ;		
+	text-align:left;
+	font-size:14px;
+	font-weight:bold;
+	padding:4px 0px 0px 0px;	
+}
+
+
+.detailsblock
+{
+    border:1px solid #51c328;background-color:#f2f8f2;padding:10px 0px 4px 8px;margin:0px;
+    overflow:hidden;height:100%;
+}

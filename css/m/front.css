@@ -1,0 +1,24 @@
+﻿/*icon*/
+.common_icon_all {
+    background: url(/images/h5/sellerlist.png?v=2018121201);
+    cursor: inherit;
+    background-repeat: no-repeat;    
+    float: left;
+    display: inline-block;
+}
+
+.common_icon_comment{
+	background-position:  0 0px !important;
+    width: 16px;
+    height: 16px;
+    background-size:16px;
+    margin-right:4px;
+}
+
+.common_icon_video{
+	background-position:  0 -16px !important;
+    width: 16px;
+    height: 16px;
+    background-size:16px;
+    margin-right:4px;
+}

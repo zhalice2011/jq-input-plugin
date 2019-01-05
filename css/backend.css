@@ -1,0 +1,50 @@
+.blockbody{border:1px solid #e8e8e8;padding:15px 20px 10px 8px;}
+
+.hoverunderline a:hover{text-decoration:underline;}
+.normalunderline{text-decoration:underline;}
+
+.formblock{text-align:left;border: 1px solid #e5e5e5;}
+.formblock select{border: 1px solid #C7B88F;padding:4px;font-size:18px;}
+
+.normalinput{border: 1px solid #C7B88F;padding:4px;font-size:18px;}
+.focusinput{border:1px solid green;}
+
+.tdspacing{padding-top:5px;padding-bottom:5px;}
+
+.formblock .firsttitle
+{
+    display:inline-block;
+	color:#000 ;	
+	text-align:left;
+}
+
+
+.formblock .nofirsttitle
+{
+	color:#000 ;
+	text-align:left;
+}
+
+.smallbutton
+{
+    padding:0px;vertical-align:middle;font-size:12px;height:30px;
+}
+
+
+
+.g-bd1{margin:10px 10px 10px 10px;}
+.f-cb,.f-cbli li{zoom:1;} 
+
+.g-sd1{position:relative;float:left;width:178px;margin-right:-180px;}
+.g-mn1{float:right;width:100%;}
+.g-mn1c{margin-left:200px;}
+
+.f-cb:after,.f-cbli li:after{display:block;clear:both;visibility:hidden;height:0;overflow:hidden;content:".";}
+
+/*backend menu*/
+.leftmenu{border:1px solid #6ac025 ;}
+.leftmenu ul{padding:0px;margin:4px 0px 10px 0px;list-style:none ;}
+.leftmenu ul li{border:0px solid red;padding:4px 0px 4px 15px;line-height:100%;}
+.leftmenu ul li a{color:#1b567b ;display:block;}
+.leftmenu ul li:hover{background-color:#c9e39c ;}
+.leftmenu  .menutitle{font-size:14px;font-weight:bold;color:#fff;border:0px solid red ;text-align:center ;background-color:#6ac025 ;line-height:30px;}

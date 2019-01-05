@@ -1,0 +1,85 @@
+﻿/*new tab*/
+.menu1box
+{
+    position: relative;
+    overflow: hidden;
+    height: 35px;
+    text-align: left;
+    margin-left: 10px;
+}
+#menu1
+{
+    margin: 0px;
+    padding: 0px;
+    clear: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+#menu1 li
+{
+    float: left;
+    display: block;
+    padding-left: 8px;
+    padding-right:8px;
+    text-align: center;
+    color: blue;
+    line-height: 34px;
+    height: 34px;
+    margin-right: 0px;
+    background-color: #f0f1f4;
+    
+}
+
+
+#menu1 li a
+{
+    display:block;
+    color: #253340;
+    outline: 0 none;
+    font-size: 12px;
+}
+
+#menu1 li a:link, #menu1 li a:visited
+{
+    color: #253340;
+    text-decoration: none;
+}
+
+
+#menu1 li.hover,#menu1 li:hover
+{
+    border-left: 1px solid #51c328;
+    border-top: 1px solid #51c328;
+    border-right: 1px solid #51c328;
+    background-color: #b8d544;
+    color: #fff;
+}
+
+#menu1 li.hover a
+{
+    color: #fff;
+}
+
+
+.main1box
+{
+    clear: left;
+    margin-top: -1.5px;
+    border: 0px;
+    overflow:hidden; 
+    border-bottom: 1px solid #51c328;
+    overflow:hidden; 
+    height:1.5px;
+    padding-top:0px; 
+    border-bottom: 1.5px solid #66B601;
+}
+
+.wrappernav {position:relative;height: 35px;width: 100%;overflow: hidden;margin:0 auto;background:#ddd;}
+	.wrappernav .scroller {position:absolute}
+	.wrappernav .scroller li {height: 100%;color:#333;float: left;font-size: 14px;text-align: center}
+	.wrappernav .scroller li a{color:#333;display:block; padding:4px 8px 4px 8px;
+    margin:4px 0px 4px 0px;}
+	.wrappernav .scroller li.cur{background:#66B601}
+	.wrappernav .scroller li.cur a{color:#fff;}

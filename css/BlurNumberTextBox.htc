@@ -1,0 +1,135 @@
+<public:attach event=ondocumentready onevent="element_ondocumentready()" />
+<public:attach event="onfocus" onevent="element_onfocus()" />
+<public:attach event=onblur onevent="element_onblur()" />
+<public:attach event=onkeydown onevent="element_onkeydown()" />
+
+
+<script language="jscript">
+function element_ondocumentready()
+{
+	element.style.textAlign = "right";
+	//element_onfocusout();
+}
+
+function element_onfocus()
+{
+	//element.style.borderColor = "#000000";
+	element.value = DelDot(element.value);
+	element.select();
+}
+
+function DelDot(value)
+{
+	var splitArray = value.split(",");
+	while(splitArray.length > 1)
+	{
+		value = value.replace(",","");
+		splitArray = value.split(",");
+	}
+	
+	return value
+}
+function element_onblur()
+{
+	element.style.borderColor = "";
+}
+
+function element_onfocusout2()
+{
+	var amount,amountHead,amountDetail;
+	amount = element.value.replace(" ","");
+	var amountArray = amount.split('.');
+	if(amountArray.length > 0)
+	{
+		if(amountArray.length == 1)
+		{
+			amountHead = amountArray[0];
+			amountHead = numberToMoney(amountHead);
+			amount = amountHead;
+		}
+		else if(amountArray.length > 1)
+		{
+			amountHead = amountArray[0];
+			amountDetail = amountArray[1] + "00";
+			amountDetail = amountDetail.length == 1 ? amountDetail + "0" : amountDetail;
+			amountDetail = amountDetail.substring(0,2);
+			amountHead = numberToMoney(amountHead);
+			amount = amountHead + "." + amountDetail;
+		}
+	}
+	else
+	{
+		amount = "0";
+	}
+	element.value = amount;
+}
+
+function numberToMoney(amount)
+{
+	var rt = "";
+	var k = 0;
+	for(var i=amount.length - 1; i>=0 ; i--)
+	{
+		if(i == 0)
+		{
+			rt = amount.charAt(i) + rt;
+		}
+		else
+		{
+			rt = amount.charAt(i) + rt;
+			k += 1;
+			if(k == 3)
+			{
+				rt = "," + rt;
+				k = 0;
+			}
+		}
+	}
+	return rt;
+}
+
+function element_onkeydown()
+{
+//alert(event.keyCode);
+	if(event.keyCode == 13)
+	{
+		element.blur();
+		return;
+	}
+	else if(event.keyCode >=48 && event.keyCode <= 57)
+	{}
+	else if(event.keyCode >=96 && event.keyCode <= 105)
+	{ }
+	else if(event.keyCode >=37 && event.keyCode <= 40)
+	{}
+	else if(event.keyCode == 8 || event.keyCode == 9 || event.keyCode == 46)
+	{ }
+	//¸ººÅ
+	else if(event.keyCode == 189 || event.keyCode == 109 || event.keyCode == 110)
+	{
+	 element.blur();
+	}
+	else if(event.keyCode == 17)
+	{ element.blur();}
+	else if(event.ctrlKey && (window.event.keyCode == 67 || event.keyCode == 86))
+	{ element.blur();}
+	else if(event.keyCode == 190)
+	{
+		var dotArray = element.value.split(".");
+		if(dotArray.length < 2)
+		{element.blur();}
+		else
+		{
+			element.blur();
+			return;
+		}
+	}
+	else
+	{
+		element.blur();
+		return;
+	}
+}
+
+
+</script>

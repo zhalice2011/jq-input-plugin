@@ -1,0 +1,120 @@
+﻿/*列表各列css*/
+.GridViewDiv
+{
+	clear:left ;
+	width:100%;
+}
+
+.GridView
+{
+	
+	margin:0px ;
+	padding:0px;
+	border-width:0px;	
+	width:100%;
+	border:1px;
+	background-color:#fff;
+}
+
+ .dg_header
+{ 
+border-width: 0px;
+color:#49779a;
+background-color:#6ac025 ;
+}
+
+.dg_header th
+{
+padding: 4px;
+border: solid 0px blue;
+text-align:left ;
+vertical-align:middle ;
+color:#fff;
+background-color:#6ac025 ;
+}
+
+.dg_alter
+{
+border-bottom:1px solid red ;
+padding:0px;
+ color:#000;
+  border:0px;
+  margin:0px;
+
+}
+
+.dg_item
+{
+ background-color :#cce5a2; 
+ color:#000;
+ border:0px;
+ margin:0px;
+}
+
+
+.dg_item td, .dg_alter td /*Common Styles*/
+{
+	
+	border-right-width:0px  ;
+	border-left-width:0px ;
+	border-top-width:0px ;
+	border-bottom-width:0px ;
+	margin-right:0px;
+	padding:4px;
+	text-align:left ;
+	margin-left:0px;
+}
+
+/*一般正常顺序为：link，visited，hover，active*/
+.GridView a
+{
+	COLOR: #002d93
+}
+
+.GridView a:visited
+{
+	COLOR: #83006f; 
+}
+.GridView a:hover
+{
+	COLOR: #bb0000; TEXT-DECORATION: underline
+}
+
+/*列表各列css*/
+.listitemtitle
+{
+	width:60px ;	
+}
+
+
+.listitemmessage
+{
+	width:150px ;
+}
+
+.listitemdatetime
+{
+	width:65px ;
+}
+
+
+.listitemlosttime
+{
+	width:120px ;
+}
+	
+.fbold
+{
+	
+	font-style:italic ;
+}
+
+.pagerno
+{
+	color:#37679c;
+}
+
+.markettitle
+{
+	width:500px ;
+}

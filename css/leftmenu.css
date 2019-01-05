@@ -1,0 +1,54 @@
+﻿#leftmenu
+{
+	float:left ;
+	width:180px ;
+	border:1px solid #6ac025 ;
+}
+
+#leftmenu div
+{
+		
+}
+
+#leftmenu ul
+{
+	padding:0px;
+	margin:4px 0px 10px 0px;
+	list-style:none ;
+}
+
+#leftmenu ul li
+{
+	border:0px solid red;
+	padding:4px 0px 4px 15px;
+}
+
+#leftmenu ul li a
+{
+	color:#1b567b ;
+}
+
+#leftmenu  .menutitle
+{
+	font-size:14px;
+	font-weight:bold ;
+	color:#fff ;
+	border:0px solid red ;
+	text-align:center ;
+	background-color: #6ac025 ;
+	line-height:30px;
+}
+
+.screename
+{
+	margin:6px 16px 2px 16px;
+}
+
+.currmenuitem a
+{
+}
+
+.currmenuitem
+{
+	background-color:#c9e39c;
+}

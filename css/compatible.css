@@ -1,0 +1,41 @@
+﻿ 
+.lbs_block      
+  {
+    width: 200px;
+    height: 60px;
+    font-size: 18px;
+    color: #555;
+    text-align: center;
+    line-height: 60px;
+    background: #FFF none repeat scroll 0% 0%;
+    margin: 0px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+    .lbs_block  a
+    {
+        display:block ;
+        height:100%;
+    }
+   .lbs_block:hover{background-color:#c9e39c ;}
+   
+   .lbs_district li
+   {
+    font-size: 18px;
+    color: #555;
+    text-align: center;
+    line-height: 26px;
+    background: #FFF none repeat scroll 0% 0%;
+    margin: 0px 0px 3px 0px;
+    border: 1px solid #ccc;
+    cursor: pointer;   
+   }
+   
+   .lbs_district li a
+   {
+        display:block ;
+        padding:2px 30px 2px 30px;
+   }
+   
+   .lbs_district li:hover{background-color:#c9e39c ;}

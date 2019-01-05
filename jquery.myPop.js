@@ -21,7 +21,6 @@
                 labelDom = $(label)
                 inputDom.after(labelDom)
             }
-            debugger
             if (value === '') {
 
                 labelDom.css({

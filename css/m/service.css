@@ -1,0 +1,95 @@
+﻿
+
+#nativeShare {
+    font-size: 12px;       
+}
+
+#nativeShare .label {
+    font-size: 20px;
+}
+
+#nativeShare .list {
+    width: 100%;
+    margin: 0 auto;
+    text-align:left;
+}
+
+#nativeShare .list span {
+    width:24%;
+    display: inline-block;
+    text-align: center;
+    margin: 20px 0;
+
+    white-space: nowrap;text-overflow:ellipsis;overflow:hidden;
+}
+
+#nativeShare .list span i {
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+#nativeShare .weibo i {
+    background-image: url('/images/share/weibo.png');
+    background-size: cover;
+}
+
+#nativeShare .package i {
+    background-image: url('/images/service/package.png');
+    background-size: cover;
+}
+
+#nativeShare .buy i {
+    background-image: url('/images/service/buy.png');
+    background-size: cover;
+}
+
+#nativeShare .class i {
+    background-image: url('/images/service/class.png');
+    background-size: cover;
+}
+
+#nativeShare .print i {
+    background-image: url('/images/service/print.png');
+    background-size: cover;
+}
+
+#nativeShare .networkclass i {
+    background-image: url('/images/service/networkclass.png');
+    background-size: cover;
+}
+
+#nativeShare .foreign i {
+    background-image: url('/images/service/foreign.png');
+    background-size: cover;
+}
+
+#nativeShare .enterprise i {
+    background-image: url('/images/service/enterprise.png');
+    background-size: cover;
+}
+
+
+#nativeShare .hunter i {
+    background-image: url('/images/service/hunter.png');
+    background-size: cover;
+}
+
+
+#nativeShare .ad i {
+    background-image: url('/images/service/ad.png');
+    background-size: cover;
+}
+
+#nativeShare .tutor i {
+    background-image: url('/images/service/tutor.png');
+    background-size: cover;
+}
+
+#nativeShare .more i {
+    background-image: url('/images/share/more.png');
+    background-size: cover;
+}
+

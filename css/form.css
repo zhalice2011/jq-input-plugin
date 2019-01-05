@@ -1,0 +1,38 @@
+﻿.firsttitle
+{
+    display:inline-block;
+	color:#728bc2 ;	
+	text-align:right;
+	padding:4px;	
+	margin:1px;		
+}
+
+.nofirsttitle
+{
+	color:#728bc2 ;
+	text-align:right;
+	padding:4px;	
+	margin:1px;		
+}
+
+.width150
+{
+    width:150px;
+}
+
+.width120
+{
+    width:120px;
+}
+
+
+
+.fillblock
+{
+    border:0px solid red;background-color:#c6f7c6;padding:10px 0px 4px 8px;margin:0px;
+}
+
+.fillblockalter
+{
+    border:0px solid red;background-color:#dafbda;padding:10px 0px 4px 8px;margin:0px;
+}

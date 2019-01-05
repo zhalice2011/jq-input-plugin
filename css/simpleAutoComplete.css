@@ -1,0 +1,12 @@
+DIV.autocomplete {
+	BORDER-RIGHT: #7c7c7c 1px solid; BORDER-TOP: #7c7c7c 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #7c7c7c 1px solid; WIDTH: 248px; BORDER-BOTTOM: #7c7c7c 1px solid; FONT-FAMILY: 'arial'; POSITION: absolute; BACKGROUND-COLOR: #fefefe
+}
+DIV.autocomplete UL {
+	PADDING-LEFT: 0px; MARGIN: 0px; LIST-STYLE-TYPE: none
+}
+DIV.autocomplete UL LI {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 1px; CURSOR: pointer; COLOR: #303030; PADDING-TOP: 1px
+}
+DIV.autocomplete UL LI.sel {
+	BACKGROUND-COLOR: #b4d5fe
+}
