@@ -1,5 +1,6 @@
 ;(function($) {
-    $.fn.myPop = function(options = {}) {
+    $.fn.myPop = function(opt) {
+        var options = opt || {}
         var inputClass = options.inputClass || '';
         var labelClass = options.labelClass || '';
         this.each(function(x, dom) {
