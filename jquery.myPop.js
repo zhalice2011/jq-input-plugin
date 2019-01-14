@@ -65,7 +65,7 @@
                 inputDom.removeClass('input-text-focus')
                 inputDom.removeClass(inputClass)
 
-                if (inputDom.val() === '') { //
+                if (inputDom.val() === '') {
                     labelDom.removeClass('input-label-focus')
                     labelDom.removeClass(labelClass)
                     if (mode === 1) {
