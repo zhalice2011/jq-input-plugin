@@ -8,7 +8,7 @@
 
             var inputDom = $(this)
             var ph = inputDom.data('placeholder') || ''
-            var mode = inputDom.data('effect') || '1'
+            var mode = inputDom.data('effect') || 1
             var name = inputDom.attr('name')
             var value = inputDom.val()
 
@@ -29,7 +29,7 @@
                     left: dom.offsetLeft + 5,
                 })
             } else {
-                if (mode === '1') {
+                if (mode === 1) {
                     labelDom.css({
                         top: -9,
                         left: dom.offsetLeft + 5,
@@ -48,7 +48,7 @@
                 labelDom.addClass('input-label-focus')
                 labelDom.addClass(labelClass)
                 inputDom.parent().addClass('form-section-focus')
-                if (mode === '1') {
+                if (mode === 1) {
                     labelDom.css({
                         top: -9
                     })
@@ -68,7 +68,7 @@
                 if (inputDom.val() === '') { //
                     labelDom.removeClass('input-label-focus')
                     labelDom.removeClass(labelClass)
-                    if (mode === '1') {
+                    if (mode === 1) {
                         labelDom.css({
                             top: inputDom.height() / 2 - 9,
                         })
@@ -78,7 +78,7 @@
                         })
                     }
                 } else {
-                    if (mode === '1') {
+                    if (mode === 1) {
                         labelDom.css({
                             top: -9,
                         })
@@ -94,7 +94,7 @@
                 if (e.target.value === '') {
                     labelDom.removeClass('input-label-focus')
                     labelDom.removeClass(labelClass)
-                    if (mode === '1') {
+                    if (mode === 1) {
                         labelDom.css({
                             top: inputDom.height() / 2 - 9,
                         })
@@ -106,7 +106,7 @@
 
                 } else {
                     labelDom.addClass('input-label-focus')
-                    if (mode === '1') {
+                    if (mode === 1) {
                         labelDom.css({
                             top: -9,
                         })
